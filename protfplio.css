@@ -14,6 +14,7 @@ header{
 }
 .link{
     text-decoration: none;
+    font-family: "Azeret Mono", monospace;
     border: 1px solid #000;
     padding: 10px 20px;
     border-radius: 8px;
@@ -25,13 +26,18 @@ header{
 /* about section */
 .useing-bg-img{
     background-image: url('./img/Hero-bg.png');
-    height: 600px;
+    height: 650px;
     background-position:top center;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
-
+ 
+.cover{
+    margin: auto;
+    width: 998px;
+    height: 581px;
+}
 .about-common-center{
     text-align: center;
 }
@@ -41,10 +47,26 @@ header{
 }
 .about-title h2{
     display: inline-block;
+    font-family: "Azeret Mono", monospace;
+    font-size: 48px;
+    font-weight: 800;
+  
 }
-.about-title::before{
-content: '"';
+.about-dct p{
+    margin: auto;
+    font-family: "Azeret Mono", monospace;
+    width: 700px;
+    font-size: 16px;
+    font-weight: 400;
 }
-.about-title::after{
-content: '"';
+
+.about-btn{
+    border-radius: 8px;
+    color: #fff;
+    background: rgb(13, 19, 33);
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 20px;
 }
