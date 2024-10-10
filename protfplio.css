@@ -2,16 +2,24 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 40px 100px;
+    padding: 30px 100px;
 }
 .heading{
     margin: 0;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
 }
 .link{
     text-decoration: none;
     border: 1px solid #000;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
 }
 
 /* about section */
