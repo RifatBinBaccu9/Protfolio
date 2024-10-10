@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.heading{
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
