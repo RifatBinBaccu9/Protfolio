@@ -70,3 +70,64 @@ header{
     line-height: 23px;
     margin-top: 20px;
 }
+
+/* Web Development */
+.web-title{
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.web-p{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+.web-section{
+    margin: 50px 0px;
+}
+.card-1{
+
+    display: flex;
+    margin:50px auto;
+    width: 900px;
+    justify-content: space-between;
+    font-family: "Azeret Mono", monospace;
+}
+.card-left-site{
+  
+}
+.card-title{
+    font-family: "Azeret Mono", monospace;
+    width: 60%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.card-p{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card-btn{
+    font-family: "Azeret Mono", monospace;
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.card-2-title{
+    font-family: "Azeret Mono", monospace;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
