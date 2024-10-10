@@ -131,3 +131,16 @@ header{
     font-weight: 700;
     line-height: 36px;
 }
+/* Current Target */
+
+/* footer section */
+.footer-section{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    font-family: "Azeret Mono", monospace;
+}
