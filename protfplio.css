@@ -35,7 +35,7 @@ header{
  
 .cover{
     margin: auto;
-    width: 998px;
+    width: 1100px;
     height: 581px;
 }
 .about-common-center{
@@ -55,7 +55,7 @@ header{
 .about-dct p{
     margin: auto;
     font-family: "Azeret Mono", monospace;
-    width: 700px;
+    width: 800px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -92,15 +92,15 @@ header{
     margin: 50px 0px;
 }
 .card-1{
-
+    
     display: flex;
-    margin:50px auto;
-    width: 900px;
+    margin:100px auto;
+    width: 1000px;
     justify-content: space-between;
     font-family: "Azeret Mono", monospace;
 }
 .card-left-site{
-  
+  padding-right: 100px;
 }
 .card-title{
     font-family: "Azeret Mono", monospace;
@@ -131,12 +131,130 @@ header{
     font-weight: 700;
     line-height: 36px;
 }
-/* Current Target */
+/* Inspiration */
+.Inspiration-title{
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+font-family: "Azeret Mono", monospace;
+text-align: center;
+}
+.Inspiration-p{
+    margin: auto;
+    width: 800px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+}
 
+
+
+/* Current Target */
+.Current-Target{
+
+    width: 1100px;
+    margin:150px auto;
+}
+.current-targer{
+    text-align: center;
+}
+.current-targer h2{
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.current-targer p{
+    width: 800px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "Azeret Mono", monospace;
+}
+.card-cu-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px 0px;
+}
+.card-cu-1{
+padding: 20px;
+}
+.card-cu-1 h3{
+    font-family: "Azeret Mono", monospace;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-cu-1 p{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+font-weight: 400;
+padding: 0px;
+}
+.card-cu-1 a{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+font-weight: 700;
+}
+
+/* Next Target */
+.next-target-title{
+    text-align: center;
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+font-family: "Azeret Mono", monospace;
+}
+.next-target-title-p{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+font-family: "Azeret Mono", monospace;
+}
+
+.next-target-section{
+width: 1100px;
+margin:40px auto;
+}
+.next-target-card{
+    margin: 30px 0px;
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 30px;
+}
+.next-target-card img{
+    margin-right: 30px;
+}
+.next-card-about h2{
+    font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+font-family: "Azeret Mono", monospace;
+}
+.next-card-about p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+font-family: "Azeret Mono", monospace;
+}
+.next-card-about a{
+    font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+font-family: "Azeret Mono", monospace;
+}
 /* footer section */
 .footer-section{
     display: flex;
-    width: 900px;
+    width: 1100px;
     margin: auto;
     justify-content: space-between;
     font-size: 20px;
